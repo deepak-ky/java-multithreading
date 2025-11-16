@@ -9,3 +9,11 @@ public class argsStringArray {
         System.out.println("done");
     }
 }
+
+
+/*
+Two ways to run the bytecode with arguments, run from different places
+
+* - java -cp src/main/java org.kd4.randomPlayground.argsStringArray yello "yello again" 1 "2 and 3"
+* - java org.kd4.randomPlayground.argsStringArray "hello" "hello again" 1 "2 and 3"
+* */
